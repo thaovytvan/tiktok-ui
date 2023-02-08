@@ -4,11 +4,12 @@
     align-items: center;
 }
 .container {
-    width: 1150px;
+    width: var(--default-layout-width);
     display: flex;
+    padding: 0 var(--default-layout-horizontal-spacer);
+    margin-top: var(--default-layout-header-height);
 }
 .content {
     flex: 1;
-    background-color: rgb(248, 203, 203);
     min-height: 1000px;
 }
